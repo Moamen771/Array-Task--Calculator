@@ -79,6 +79,7 @@ class LoginScreen extends StatelessWidget {
                           ),
                           TextFormField(
                             keyboardType: TextInputType.visiblePassword,
+                            obscureText: true,
                             decoration: const InputDecoration(
                                 hintText: "Password",
                                 hintStyle: TextStyle(color: Colors.grey),
